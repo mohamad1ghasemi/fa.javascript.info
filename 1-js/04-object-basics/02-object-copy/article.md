@@ -234,7 +234,7 @@ let user = {
 alert( user.sizes.height ); // 182
 ```
 
-اینجا کپی کردن `clone.sizes = user.sizes` کافی نیست، چون `user.sized` یک شیء است و توسط مرجع کپی می‌شود. پس `clone` و `user` سایزهای یکسانی را مشترک می‌شوند:
+اینجا کپی کردن `clone.sizes = user.sizes` کافی نیست، چون `user.sizes` یک شیء است و توسط مرجع کپی می‌شود. پس `clone` و `user` سایزهای یکسانی را مشترک می‌شوند:
 
 مثل این:
 
